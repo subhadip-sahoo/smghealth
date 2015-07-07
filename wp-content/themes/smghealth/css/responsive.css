@@ -1,0 +1,92 @@
+@media only screen and (max-width : 1200px) {
+
+}
+
+@media only screen and (max-width : 979px) {
+	.navbar-header .logo{  position: relative;
+    top: 0;
+  }
+.section {
+    padding: 30px 0;
+}
+.section2{ padding:0px 0px 30px 0px}
+.top_section h2,.buttom_section h2{ margin-top:20px;}
+.buttom_section aside{ padding-left:0px;}
+.last_footer{ clear:both;}
+
+.img-responsive{ margin-right:10px; }
+.blog_con_left{ display:inline-block; vertical-align:top; }
+.blog_con_right{  float: left;
+    width: 50%;}
+.menu-header-menu-container{ float:none}
+.carousel-inner h3{ font-size:20px; }
+.list-inline > li{ margin-left:0px;}
+}
+
+@media only screen and (max-width : 768px) {
+	.navbar-header .logo{  position: relative;
+    top: 0;
+  }
+.section {
+    padding: 30px 0;
+}
+.section2{ padding:0px 0px 30px 0px}
+.top_section h2,.buttom_section h2{ margin-top:20px;}
+.buttom_section aside{ padding-left:0px;}
+.last_footer{ clear:both;}
+
+.img-responsive{ margin-right:10px; }
+.blog_con_right{  float: left;
+    width: 100%;}
+.menu-header-menu-container{ float:none}
+.top_section .col-md-6 aside {
+    margin-left: 20px;
+    width: 60%;
+}
+}
+
+@media only screen and (max-width : 480px) {
+	.navbar-header .logo{  position: relative;
+    top: 0;
+  }
+.section {
+    padding: 30px 0;
+}
+.section2{ padding:0px 0px 30px 0px}
+.top_section h2,.buttom_section h2{ margin-top:20px;}
+.buttom_section aside{ padding-left:0px;}
+.last_footer{ clear:both;}
+
+.blog_con_right{  float: left;
+    width: 100%;}
+.border_bottom{  margin-top:0px;
+    width:100%;}
+.carousel-inner h3 a{ font-size:100%;}	
+.top_section .col-md-6 aside,.buttom_section aside{ width:100%; margin-left:0px ;text-align:justify;
+}
+
+}
+
+@media only screen and (max-width : 320px) {
+	
+.navbar-header .logo{  position: relative;
+    top: 0;
+    width: 70%;}
+.section {
+    padding: 30px 0;
+}
+.section2{ padding:0px 0px 30px 0px}
+.top_section h2,.buttom_section h2{ margin-top:20px;}
+.buttom_section aside{ padding-left:0px;}
+.last_footer{ clear:both;}
+.blog_con_right{  float: left;
+    width: 100%;}
+.border_bottom{  margin-top:0px;
+    width:100%;}
+.menu-header-menu-container{float: left;
+    width: 100%;}
+.seach_box{ margin-left:0px;}	
+.carousel-inner h3 a{ font-size:100%;}	
+.top_section .col-md-6 aside,.buttom_section aside{ width:100%; margin-left:0px; text-align:justify;
+}
+}
