@@ -68,6 +68,9 @@ h4 {
     list-style: outside none none;
     margin-left: 0;
     padding-left: 18px;}
+ul, ol {
+    list-style-image: url('listing-img.png') no-repeat;
+}	
 /*header_start*/
 .header_bg{ background:#fff;} 
 .header_bg .navbar{margin-bottom:0px;}
@@ -232,6 +235,31 @@ div.wpcf7-validation-errors {
 {
 display: none !important;
 }
+
+.innerpagemore .reamore{  background: url("../images/button_arrow.png") no-repeat scroll 58px 8px #0c8281;
+    border: medium none;
+    color: #fff;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 5px 20px; } 
+.innerpagemore .reamore:hover{  /* Firefox */
+    -moz-transition: all 1s ease-in;
+    /* WebKit */
+    -webkit-transition: all 1s ease-in;
+    /* Opera */
+    -o-transition: all 1s ease-in;
+    /* Standard */
+    transition: all 1s ease-in;
+	 background: url("../images/button_arrow.png") no-repeat scroll 58px 8px  #015756;
+	 color:#FFF; text-decoration:none;border:none}
 /*inner-page-end*/
-
-
+.innerpagemore h3 { font-size: 18px;
+    margin-top: 15px; 
+;}
+.innerpagemore h3 a{ color: #b12427;
+    font-weight:300;
+    margin-top: 0;}
+.innerpagemore{ display: inline-block;
+    position: relative;
+    width: 33%; border-top: 1px solid #d0d0d0;}
+	
