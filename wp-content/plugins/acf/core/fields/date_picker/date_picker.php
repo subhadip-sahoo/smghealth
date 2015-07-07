@@ -57,7 +57,7 @@ class acf_Date_picker extends acf_Field
 
 		// html
 		echo '<input type="hidden" value="' . $field['value'] . '" name="' . $field['name'] . '" class="acf-hidden-datepicker" />';
-		echo '<input type="text" value="" class="acf_datepicker" data-save_format="' . $field['date_format'] . '" data-display_format="' . $field['display_format'] . '" />';
+		echo '<input type="text" value="" class="acf_datepicker" data-save_format="' . $field['date_format'] . '" data-display_format="' . $field['display_format'] . '" required/>';
 
 	}
 	
