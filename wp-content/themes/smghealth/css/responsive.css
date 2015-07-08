@@ -43,6 +43,14 @@
     margin-left: 20px;
     width: 60%;
 }
+.team_tytle {
+    padding-right: 16px;
+    text-align: left;
+}
+.about_senior_team .col-md-13 {
+    width: auto;
+}
+.about_senior_team .col-md-13 .team_tytle{ text-align:left}
 }
 
 @media only screen and (max-width : 480px) {

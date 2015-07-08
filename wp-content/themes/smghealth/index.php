@@ -21,7 +21,7 @@
         <div class="col-md-<?php echo (12 - $col); ?> m_t2">
             <h2><span><?php the_title(); ?></span></h2>
            <span class="border_bottom2"></span>
-           <p class="text-justify m_t2"><?php echo mb_strimwidth(get_the_content(get_the_ID()), 0, 300, '<a href="'.  get_the_permalink(get_the_ID()) .'">Read more</a>'); ?></p>
+           <p class="text-justify m_t2"><?php echo mb_strimwidth(get_the_content(get_the_ID()), 0, 300, '&nbsp;<a href="'.  get_the_permalink(get_the_ID()) .'" class="blog-more">Read more</a>'); ?></p>
         </div>
         <div class="clearfix"></div>
         <?php endwhile; ?>

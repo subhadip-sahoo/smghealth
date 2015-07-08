@@ -1,5 +1,6 @@
     <footer class="container-fluid footer_bg">
         <div class="container">
+        <div class="row">
             <div class="col-md-2 blog_con_left">
                 <h2>Services</h2>
                 <?php
@@ -96,6 +97,7 @@
             <div class="col-md-3 blog_con_right">
                 <?php echo do_shortcode('[xyz_em_subscription_html_code]'); ?>
             </div>
+            
             <div class="col-md-12 last_footer">
                 <?php
 
@@ -124,6 +126,7 @@
                 <?php if(get_field('copyright', 'options') <> '') : ?>
                 <p><small><i class="fa fa-copyright"></i> <?php echo get_field('copyright', 'options');?></small></p>
                 <?php endif; ?>
+            </div>
             </div>
         </div>
     </footer>
